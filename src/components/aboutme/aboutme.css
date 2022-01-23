@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.aboutMe h4 {
+    font-family: 'Old Standard TT', serif;
+    margin: 7% 7% 0% 7%;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.aboutMe h5 {
+    font-family: 'Old Standard TT', serif;
+    margin: 1% 7% 0% 7%;
+    text-align: center;
+    font-size: 140%;
+    
+}
+
+.aboutMe p {
+    font-family: 'Old Standard TT', serif;
+    margin: 1% 7% 0% 7%;
+    text-align: center;
+    font-size: 130%;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(1, 255, 255);
+    background: rgb(0, 128, 128);
+}
+  
+::selection {
+    color: rgb(0, 255, 255);
+    background: rgb(0, 128, 128);
+}
+
+@media only screen and (max-width: 776px) {
+    .aboutMe h4 {
+        font-family: 'Old Standard TT', serif;
+        margin: 19% 7% 0% 7%;
+        text-align: center;
+        font-size: 150%;
+    
+    }
+    
+    .aboutMe h5 {
+        font-family: 'Old Standard TT', serif;
+        margin: 1% 7% 0% 7%;
+        text-align: center;
+        font-size: 140%;
+        
+    }
+    
+    .aboutMe p {
+        font-family: 'Old Standard TT', serif;
+        margin: 1% 7% 0% 7%;
+        text-align: center;
+        font-size: 130%;
+    }
+    
+}

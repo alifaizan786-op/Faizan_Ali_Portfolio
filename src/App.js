@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/header/Header';
 import Hero from './components/hero/hero'
+import AboutMe from './components/aboutme/aboutme';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header/>
       <Hero/>
+      <AboutMe/>
     </div>
   );
 }
