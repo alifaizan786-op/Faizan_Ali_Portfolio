@@ -38,8 +38,8 @@ const theme = createTheme({
 });
 
 const actions = [
-  { icon: <CodeIcon />, name: 'Work' },
-  { icon: <InfoIcon />, name: 'About' },
+  { icon: <CodeIcon />, name: 'Work', link: '#portfolio' },
+  { icon: <InfoIcon />, name: 'About', link: '#aboutme' },
   { icon: <ContactsIcon />, name: 'Contact' },
   { icon: <PictureAsPdfIcon />, name: 'Resume' },
 ];
@@ -74,7 +74,8 @@ function Header() {
                     icon={action.icon}
                     tooltipTitle={action.name}
                     tooltipOpen
-                    onClick={handleClose}/>
+                    onClick={handleClose}
+                    href={action.link}/>
                 ))}
               </SpeedDial>
             </Box>

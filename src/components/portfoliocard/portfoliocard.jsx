@@ -8,12 +8,12 @@ import Typography from '@mui/material/Typography';
 
 function PortfolioCard (props) {
     return(
-      <Card sx={{ justifyContent: 'center' }}>
+      <Card sx={{ justifyContent: 'center',width: 1  }}>
         <CardMedia
           component="img"
-          height="140"
+          height="300"
           image={props.image}
-          alt="green iguana"
+          alt={props.name}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -25,7 +25,7 @@ function PortfolioCard (props) {
         </CardContent>
         <CardActions>
           <Button href={props.repo} size="small">Repository</Button>
-          <Button href={`'${props.deployed}'`} size="small">Deployed</Button>
+          <Button href={props.deployed} size="small">Deployed</Button>
         </CardActions>
       </Card>
     )

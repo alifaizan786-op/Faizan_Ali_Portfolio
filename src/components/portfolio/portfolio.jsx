@@ -8,6 +8,15 @@ import TabUnstyled, { tabUnstyledClasses } from '@mui/base/TabUnstyled';
 import {  teal } from '@mui/material/colors';
 import PortfolioCard from '../portfoliocard/portfoliocard'
 import weatherimg from '../../images/weather_dashh.PNG'
+import weeklymeal from '../../images/Weekly Meal Planner.PNG'
+import codequiz from '../../images/game.png'
+import lastpass from '../../images/last pass.png'
+import planner from '../../images/daily-planner.PNG'
+import hrmanag from '../../images/hr_management_system.PNG'
+import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
+
+
 
 
 const Tab = styled(TabUnstyled)`
@@ -50,7 +59,8 @@ const Tab = styled(TabUnstyled)`
 const TabPanel = styled(TabPanelUnstyled)`
 display: flex;
 justify-content: center;
-  max-width:500px ;
+  max-width:90% ;
+  margin: auto;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 0.875rem;
 `;
@@ -59,6 +69,7 @@ const TabsList = styled(TabsListUnstyled)`
   min-width: 320px;
   background-color: ${teal[500]};
   border-radius: 8px;
+  margin-top: 16px;
   margin-bottom: 16px;
   display: flex;
   align-items: center;
@@ -75,8 +86,15 @@ function Portfolio () {
     setValue(newValue);
   };
     return (
-        <div className='portfolio'>
-        <TabsUnstyled defaultValue={0} >
+        <div className='portfolio' id='portfolio'>
+          <Divider variant="middle" sx={{ marginTop: '25px', marginBottom: '25px' }}  />
+          <Typography gutterBottom variant="h1" component="div" sx={{ textAlign: 'center' }}>
+            Work
+          </Typography>
+        <TabsUnstyled value={value} onChange={handleChange} sx={{ display: 'flex' }}
+        variant="scrollable"
+        scrollButtons="auto"
+        aria-label="scrollable auto tabs example">
             <TabsList>
                 <Tab>Weather Dashboard</Tab>
                 <Tab>Weekly Meal Planner</Tab>
@@ -91,11 +109,36 @@ function Portfolio () {
             desc={'Weather Dashboard is a easy to use Web App to instantly find the weather of any given city at any moment, or easily navigate through your recently searched cities.'}
             repo={'https://github.com/alifaizan786-op/Weather-Dash'}
             deployed={'https://alifaizan786-op.github.io/Weather-Dash/'} /></TabPanel>
-            <TabPanel sx={{ justifyContent: 'center' }} value={1}>Weekly Meal Planner</TabPanel>
-            <TabPanel value={2}>Code Quiz</TabPanel>
-            <TabPanel value={3}>Last Pass</TabPanel>
-            <TabPanel value={4}>Professional Planner</TabPanel>
-            <TabPanel value={5}>HR Management System</TabPanel>
+            <TabPanel sx={{ justifyContent: 'center' }} value={1}><PortfolioCard 
+            image={weeklymeal}
+            name={'Weekly Meal Planner'}
+            desc={'An App designed to help busy, healthy, and hungry people; plan their weekly meals. Where they can choose a meal based on their diet. Helping with saving time and money, Along with paying attention to eating habits and weekly spending.'}
+            repo={'https://github.com/nandodavila/Weekly-Meal-Planners'}
+            deployed={'https://nandodavila.github.io/Weekly-Meal-Planners/'} /></TabPanel>
+            <TabPanel value={2}><PortfolioCard 
+            image={codequiz}
+            name={'Code Quiz'}
+            desc={'This a Javascript code quiz, test your skils and compete with your fellow programmers.'}
+            repo={'https://github.com/alifaizan786-op/Code_Quiz'}
+            deployed={'https://alifaizan786-op.github.io/Code_Quiz/'} /></TabPanel>
+            <TabPanel value={3}><PortfolioCard 
+            image={lastpass}
+            name={'Last Pass'}
+            desc={'This is a completly secure password generator, which uses no logic at all while creating password. I have also incorporated the use of windows prompt so your inputs are secured by windows security'}
+            repo={'https://github.com/alifaizan786-op/Last_Pass'}
+            deployed={'https://github.com/alifaizan786-op/Last_Pass/deployments/activity_log?environment=github-pages'} /></TabPanel>
+            <TabPanel value={4}><PortfolioCard 
+            image={planner}
+            name={'Professional Planner'}
+            desc={'Do you forget your daily goals ? Do you have to meet multiple timelines daily ? Dont worry, Professional Daily Plaaner is here to help solva all your planning problems.'}
+            repo={'https://github.com/alifaizan786-op/Profeesional_Daily_Planner'}
+            deployed={'https://alifaizan786-op.github.io/Profeesional_Daily_Planner/'} /></TabPanel>
+            <TabPanel value={5}><PortfolioCard 
+            image={hrmanag}
+            name={'HR Management System'}
+            desc={'HR Management is tool created to make the job of a HR rep easier, helps the HR to manage all employees, Help Branch Manger to Look over there branch, Helps executive look over there company and for employee to find the benefits all in one place and request time off by just a click of the button'}
+            repo={'https://github.com/alifaizan786-op/HR_Management_System'}
+            deployed={'https://hrmanagement0.herokuapp.com/login'} /></TabPanel>
         </TabsUnstyled>
         </div>
     )

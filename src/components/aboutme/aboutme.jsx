@@ -1,11 +1,16 @@
 import React from "react";
-import Typography from '@mui/material/Typography';
 import './aboutme.css'
+import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
 
 
 function AboutMe () {
     return (
-        <div className="aboutMe">
+        <div className="aboutMe" id="aboutme">
+            <Divider variant="middle" sx={{ marginTop: '25px', marginBottom: '25px' }}  />
+          <Typography gutterBottom variant="h1" component="div" sx={{ textAlign: 'center' }}>
+            About Me !
+          </Typography>
             <h4>
                 Faizan Ali is a result driven full-stack developer, working in the field for the past 4 years.
             </h4>
