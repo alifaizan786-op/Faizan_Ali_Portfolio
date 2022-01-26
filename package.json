@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -51,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/alifaizan786-op/Faizan_Ali_Portfolio/issues"
   },
-  "homepage": "https://alifaizan786-op.github.io/Faizan_Ali_Portfolio"
+  "homepage": "https://alifaizan786-op.github.io/Faizan_Ali_Portfolio",
+  "devDependencies": {
+    "mini-css-extract-plugin": "2.4.5"
+  }
 }

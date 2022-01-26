@@ -1,0 +1,20 @@
+.resimg{
+    min-height: 500px;
+    background-image: url("../../images/Resume.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.resimg h1 {
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    min-height: 500px;
+    font-size: 226px;
+    color: white;
+    text-align: center;
+    margin: auto;  
+} 
