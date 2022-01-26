@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Faizan_Ali_Portfolio/static/css/main.46f9256b.css",
-    "main.js": "/Faizan_Ali_Portfolio/static/js/main.18b0ee91.js",
+    "main.js": "/Faizan_Ali_Portfolio/static/js/main.93c51869.js",
     "static/media/Weekly Meal Planner.PNG": "/Faizan_Ali_Portfolio/static/media/Weekly Meal Planner.fe5427ae332d6dfbfa57.PNG",
     "static/media/hr_management_system.PNG": "/Faizan_Ali_Portfolio/static/media/hr_management_system.8a064c51329cd8aa1685.PNG",
     "static/media/game.png": "/Faizan_Ali_Portfolio/static/media/game.da991aceab774a2f60ae.png",
@@ -12,10 +12,10 @@
     "static/media/daily-planner.PNG": "/Faizan_Ali_Portfolio/static/media/daily-planner.7274f769b59c6daf0501.PNG",
     "index.html": "/Faizan_Ali_Portfolio/index.html",
     "main.46f9256b.css.map": "/Faizan_Ali_Portfolio/static/css/main.46f9256b.css.map",
-    "main.18b0ee91.js.map": "/Faizan_Ali_Portfolio/static/js/main.18b0ee91.js.map"
+    "main.93c51869.js.map": "/Faizan_Ali_Portfolio/static/js/main.93c51869.js.map"
   },
   "entrypoints": [
     "static/css/main.46f9256b.css",
-    "static/js/main.18b0ee91.js"
+    "static/js/main.93c51869.js"
   ]
 }
