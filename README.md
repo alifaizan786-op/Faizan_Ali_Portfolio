@@ -1,6 +1,6 @@
 # Faizan_Ali_Portfolio
 
-![Portfolio_Mock_Up](src/images/Portfolio Mock.jpg)
+![Portfolio_Mock_Up](https://raw.githubusercontent.com/alifaizan786-op/Faizan_Ali_Portfolio/main/src/images/Portfolio%20Mock.jpg)
 
 ## Table of Contents
 - [About](#about)
