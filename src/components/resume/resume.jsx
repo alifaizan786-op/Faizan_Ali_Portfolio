@@ -30,7 +30,7 @@ function Resume (props) {
           Resume
         </Typography>
         <ThemeProvider theme={theme}>
-        <Card sx={{ justifyContent: 'center',width: '80%', margin: 'auto'  }}>
+        <Card sx={{ justifyContent: 'center',width: '80%', margin: 'auto', marginBottom: '25px'  }}>
         <div className='resimg'>
           <h1>FA</h1>
         </div>

@@ -4,7 +4,7 @@ import Hero from './components/hero/hero'
 import AboutMe from './components/aboutme/aboutme';
 import Portfolio from './components/portfolio/portfolio'
 import Resume from './components/resume/resume'
-
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <AboutMe/>
       <Portfolio/>
       <Resume/>
+      <Footer/>
     </div>
   );
 }
