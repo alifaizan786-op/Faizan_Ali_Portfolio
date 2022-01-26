@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Faizan_Ali_Portfolio/static/css/main.0deb5893.css",
-    "main.js": "/Faizan_Ali_Portfolio/static/js/main.8507375e.js",
+    "main.css": "/Faizan_Ali_Portfolio/static/css/main.46f9256b.css",
+    "main.js": "/Faizan_Ali_Portfolio/static/js/main.18b0ee91.js",
     "static/media/Weekly Meal Planner.PNG": "/Faizan_Ali_Portfolio/static/media/Weekly Meal Planner.fe5427ae332d6dfbfa57.PNG",
     "static/media/hr_management_system.PNG": "/Faizan_Ali_Portfolio/static/media/hr_management_system.8a064c51329cd8aa1685.PNG",
     "static/media/game.png": "/Faizan_Ali_Portfolio/static/media/game.da991aceab774a2f60ae.png",
     "static/media/last pass.png": "/Faizan_Ali_Portfolio/static/media/last pass.df6b8bbe99bb4e4af43e.png",
     "static/media/weather_dashh.PNG": "/Faizan_Ali_Portfolio/static/media/weather_dashh.8257196d2cf6cd6e8acc.PNG",
+    "static/media/Faizan_Ali_Resume.PDF": "/Faizan_Ali_Portfolio/static/media/Faizan_Ali_Resume.ca87ba3b0d4e0def7832.PDF",
+    "static/media/Resume.PNG": "/Faizan_Ali_Portfolio/static/media/Resume.48a7988e1c1deaceda43.PNG",
     "static/media/daily-planner.PNG": "/Faizan_Ali_Portfolio/static/media/daily-planner.7274f769b59c6daf0501.PNG",
     "index.html": "/Faizan_Ali_Portfolio/index.html",
-    "main.0deb5893.css.map": "/Faizan_Ali_Portfolio/static/css/main.0deb5893.css.map",
-    "main.8507375e.js.map": "/Faizan_Ali_Portfolio/static/js/main.8507375e.js.map"
+    "main.46f9256b.css.map": "/Faizan_Ali_Portfolio/static/css/main.46f9256b.css.map",
+    "main.18b0ee91.js.map": "/Faizan_Ali_Portfolio/static/js/main.18b0ee91.js.map"
   },
   "entrypoints": [
-    "static/css/main.0deb5893.css",
-    "static/js/main.8507375e.js"
+    "static/css/main.46f9256b.css",
+    "static/js/main.18b0ee91.js"
   ]
 }
